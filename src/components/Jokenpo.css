@@ -1,0 +1,58 @@
+.container {
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }
+  
+  #rock {
+    background-color: #673AB7;
+  }
+  
+  #paper {
+    background-color: #0062FF;
+  }
+  
+  #scissors {
+    background-color: #FF00B2;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  .machine-choice {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .yourPoint span {
+    color: #02E133;
+  }
+  
+  .botPoint span {
+    color: #FC00E5;
+  }
+  
